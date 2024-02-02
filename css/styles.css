@@ -527,6 +527,11 @@ footer {
         font-size: 32px;
     }
 
+    .cardstyle {
+        min-height: 175px;
+        height: auto;
+    }
+
     .img-character {
         max-height: 200px;
 
