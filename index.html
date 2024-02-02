@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Rick and Morty</title>
+    <link rel="icon" href="/img/rick-and-morty-logo.png" type="image/x-icon">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    
+    </head>
+
+<body>
+    <header class="container d-flex flex-column my-4 pt-5 pb-5 justify-content-center align-items-center ">
+        <div class="logo slide-in-left">
+            <img class="logo " src="/img/rick-and-morty-icon.png" alt="Logo Rick and Morty" srcset="">
+        </div>
+        <div class="row">
+            <div class="col justify-content-center">
+                <h1 class="title fade-in mb-4 slide-fwd-center">API de Rick and Morty</h1>
+            </div>
+        </div>
+        <div class="row fade-in  d-flex justify-content-evenly   " id="container-filter">
+            <div class="col  ">
+                <input class="input-filter fade-in" type="text" id="filter" placeholder="Pesquisar personagem">
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-end ">
+                <button id="button-filter">
+                    <img class="img-filter fade-in" src="/img/magnifying-glass-solid.svg" alt="Pesquisar">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="container-card">
+        </div>
+        <div class="pagination">
+            <button class="heartbeat" id="prevPage">Anterior</button>
+            <button class="heartbeat" id="nextPage">Próxima</button>
+        </div>
+    </main>
+    <footer>
+        <div class="row py-3 d-flex justify-content-center align-items-center  " id="container-footer">
+            <div class="row d-flex justify-content-center " id="info-api">
+            </div>
+            <div class="row fade-in" id="info-developer">
+                <p class="developer-text text-center fade-in ">Desenvolvido por: <span class="developer-name">Alexsandro da Rocha</span> em
+                    2023</p>
+            </div>
+        </div>
+    </footer>
+    
+
+      <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-dialog-centered ">
+          <div class="modal-content">
+      
+         
+      
+            
+      
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>
