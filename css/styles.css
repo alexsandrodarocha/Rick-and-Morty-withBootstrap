@@ -526,4 +526,9 @@ footer {
     .title {
         font-size: 32px;
     }
+
+    .img-character {
+        max-height: 200px;
+
+    }
 }
