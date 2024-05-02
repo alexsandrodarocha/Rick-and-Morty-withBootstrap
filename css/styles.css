@@ -15,9 +15,6 @@ body {
 }
 
 /* header */
-
-
-
 .logo {
     position: absolute;
     top: 7px;
@@ -62,12 +59,11 @@ body {
 }
 
 /* main */
-
 main {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-image: url(/img/FUNDO.jpg);
+    background-image: url(/img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 2499px;
@@ -212,7 +208,6 @@ main {
     }
 }
 
-
 .fade-in {
     -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -270,7 +265,6 @@ main {
         opacity: 1;
     }
 }
-
 
 article:hover {
     cursor: pointer;
@@ -340,7 +334,6 @@ article:hover {
 }
 
 /* css modal */
-
 .img-character-modal {
     width: 200px;
     height: 200px;
@@ -372,8 +365,7 @@ article:hover {
     font-weight: 600;
 }
 
-/* paginação */
-
+/* pagination */
 .pagination {
     display: flex;
     justify-content: center;
@@ -382,7 +374,7 @@ article:hover {
     margin-bottom: 3rem;
 }
 
-/* Estilo para os botões de página */
+/* buttom style */
 .pagination button {
     background-color: #354338;
     color: white;
@@ -395,7 +387,7 @@ article:hover {
     font-size: 16px;
 }
 
-/* Estilo para o botão de página ativa */
+/* style of pagination active buttom*/
 .pagination button.active {
     background-color: var(--color-st);
 }
@@ -479,10 +471,7 @@ footer {
 
 }
 
-
 @media only screen and (max-width: 868px) {
-
-
     .title {
         font-size: 38px;
     }
@@ -518,9 +507,7 @@ footer {
     .info-character p {
         font-size: 12px;
     }
-
 }
-
 
 @media only screen and (max-width: 468px) {
     .title {

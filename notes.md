@@ -26,13 +26,6 @@ A lista de personagens deve ter:
 - Link para abrir a página de detalhes de cada personagem;
 - Paginação.
 
-<!-- A página de cada personagem deve ser
-dinâmica e possuir:
-- A imagem e as informações básicas do
-personagem (nome, status e espécie);
-- As informações sobre a localização do
-personagem;
-- Um botão para voltar à tela da lista. -->
 
 A lista de personagens deve:
 - Ser conter elementos do Bootstrap:
